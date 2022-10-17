@@ -8,9 +8,11 @@
   </head>
 
   <body>
-    <div class="header">
+    <!-- header inserted -->
+    <header class="header">
       <h1>Hori<span class="seo">seo</span>n</h1>
-      <div>
+      <!-- changed to nav -->
+      <nav class="nav">
         <ul>
           <li>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,15 +26,23 @@
             <a href="#social-media-marketing">Social Media Marketing</a>
           </li>
         </ul>
-      </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-      <div class="search-engine-optimization">
+      </nav>
+    </header>
+    <article class="hero"></article>
+    <!-- inserted main -->
+    <main class="content">
+      <!-- section inserted -->
+      <section
+        id="search-engine-optimization"
+        class="search-engine-optimization"
+      >
+        <!-- Inserted the ID selector -->
         <img
           src="./assets/images/search-engine-optimization.jpg"
+          alt="search image section of the page"
           class="float-left"
         />
+        <!-- inserted alt -->
         <h2>Search Engine Optimization</h2>
         <p>
           The dominance of mobile internet use means that users are searching
@@ -40,13 +50,16 @@
           home. Search Engine Optimization (SEO) allows you to increase your
           visibility and find the right customers for your business.
         </p>
-      </div>
-      <div
+      </section>
+      <section
         id="online-reputation-management"
         class="online-reputation-management"
       >
+        <!-- inserted alt text -->
+
         <img
           src="./assets/images/online-reputation-management.jpg"
+          alt="Person holding phone a phone and working on their laptop"
           class="float-right"
         />
         <h2>Online Reputation Management</h2>
@@ -57,10 +70,13 @@
           control over what potential customers see when they search for your
           business.
         </p>
-      </div>
-      <div id="social-media-marketing" class="social-media-marketing">
+      </section>
+      <!-- changed to section -->
+      <section id="social-media-marketing" class="social-media-marketing">
+        <!-- inserted alt -->
         <img
           src="./assets/images/social-media-marketing.jpg"
+          alt="An image of a people surrounding a table with devices"
           class="float-left"
         />
         <h2>Social Media Marketing</h2>
@@ -70,37 +86,50 @@
           to your brand, using analytics to find the right markets and increase
           your lead generation.
         </p>
-      </div>
-    </div>
-    <div class="benefits">
-      <div class="benefit-lead">
+      </section>
+    </main>
+    <!-- changed to section -->
+    <section class="benefits">
+      <section class="benefit-lead">
         <h3>Lead Generation</h3>
-        <img src="./assets/images/lead-generation.png" />
+        <!-- alt inserted -->
+        <img
+          src="./assets/images/lead-generation.png"
+          alt="image of a gear being funneled into a coin"
+        />
         <p>
           Inbound strategies for lead generation require less work for your
           business, bringing customers directly to your website.
         </p>
-      </div>
-      <div class="benefit-brand">
+      </section>
+      <!-- changed to benefit-img to consolidate -->
+      <section class="benefit img">
         <h3>Brand Awareness</h3>
-        <img src="./assets/images/brand-awareness.png" />
+        <!-- alt inserted -->
+        <img
+          src="./assets/images/brand-awareness.png"
+          alt="image of a lightbulb as the head on a body"
+        />
         <p>
           Users find your business through paid and organic searches, increasing
           the search ranking and visibility for your business.
         </p>
-      </div>
-      <div class="benefit-cost">
+      </section>
+      <section class="benefit img">
         <h3>Cost Management</h3>
-        <img src="./assets/images/cost-management.png" />
+        <!-- alt inserted -->
+        <img
+          src="./assets/images/cost-management.png"
+          alt="image of gears and coins"
+        />
         <p>
           As the search ranking for your business increases, your advertising
           costs decrease, and you no longer need to advertise your page.
         </p>
-      </div>
-    </div>
-    <div class="footer">
-      <h2>Made with ❤️️ by Horiseon</h2>
-      <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
-    </div>
+      </section>
+    </section>
+    <footer class="footer">
+      <!-- Removed the "Made with ❤️️ by Horiseon 2019 Horiseon Social Solution Services, Inc. section-->
+    </footer>
   </body>
 </html>

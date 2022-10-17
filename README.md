@@ -1,2 +1,0 @@
-# Horiseon
-Activity one
